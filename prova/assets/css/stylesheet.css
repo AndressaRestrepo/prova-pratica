@@ -1,0 +1,333 @@
+            header {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                margin: 20px;
+            }
+            
+            header .logo {
+                display: block;
+            }
+            
+            header input {
+                display: block;
+                width: 65%;
+                border: 1px solid #bababa;
+                border-radius: 8px;
+                padding: 10px 15px;
+                font-size: 18px;
+                background-image: url(../img/search.png);
+                background-repeat: no-repeat;
+                background-position: right 10px center;
+                background-size: 20px 20px;
+            }
+            
+            header .itemMenu {
+                font-size: small;
+                color: #000;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            header .itemMenu img {
+                display: inline-block;
+                vertical-align: middle;
+                width: 18px;
+                height: 18px;
+            }
+            
+            header .shopCart {
+                display: block;
+                height: 18px;
+                width: 18px;
+            }
+            
+            .section {
+                background-color: black;
+                width: 100%;
+                height: 20px;
+            }
+            
+            .addCart {
+                display: flex;
+                background-color: #40B25C;
+                flex-direction: row;
+                align-content: space-around;
+                align-items: center;
+                justify-content: space-evenly;
+                font-size: small;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 200px;
+                max-width: 200px;
+                height: 40px;
+                max-height: 40px;
+                border-radius: 8px;
+            }
+            
+            .buyNow {
+                display: flex;
+                background-color: #E36305;
+                flex-direction: row;
+                align-content: space-around;
+                align-items: center;
+                justify-content: center;
+                font-size: small;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 200px;
+                max-width: 200px;
+                height: 40px;
+                max-height: 40px;
+                border-radius: 8px;
+                margin-top: 6px;
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                width: 100%;
+                height: 40px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .block-text {
+                display: flex;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 2;
+            }
+            
+            .menu-items {
+                display: flex;
+                letter-spacing: normal;
+                position: relative;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .large {
+                display: flex;
+                position: center;
+                flex-direction: row;
+                align-content: flex-start;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .large-1 {
+                display: flex;
+                flex-direction: column;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .card {
+                display: flex;
+                flex-direction: row;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .productColor {
+                display: flex;
+                flex-direction: row;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 10px;
+                max-width: 10px;
+                height: 10px;
+                max-height: 10px
+            }
+            
+            .cardCart {
+                display: flex;
+                flex-direction: column;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .boughtProducts {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 10px;
+                margin-top: 40x;
+                margin-block: 40px;
+            }
+            
+            .price {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .departament {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: small;
+                color: black;
+                /* margin: 20px; */
+                width: 100%;
+            }
+            
+            footer input {
+                display: block;
+                width: 65%;
+                border: 1px solid #bababa;
+                border-radius: 8px;
+                padding: 12px 50px;
+                font-size: 18px;
+                background-image: url(../img/mail.png);
+                background-repeat: no-repeat;
+                background-position: left 10px center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .offers {
+                display: flex;
+                background-color: #40B25C;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 65px;
+            }
+            
+            .offers-text {
+                display: flex;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .submit {
+                background-color: #E36305;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border-radius: 8px;
+            }
+            
+            .section-footer {
+                display: flex;
+                background-color: black;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+            }
+            
+            .section-1 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .section-2 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .contact-phone {
+                display: flex;
+                background-color: #40B25C;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                font-size: small;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 200px;
+                max-width: 200px;
+                height: 40px;
+                max-height: 40px;
+                border-radius: 8px;
+            }
+            
+            .contact-mail {
+                display: flex;
+                background-color: #E36305;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                font-size: small;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 200px;
+                max-width: 200px;
+                height: 40px;
+                max-height: 40px;
+                border-radius: 8px;
+            }
+            
+            .columnContact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                justify-content: space-between;
+                height: 155px;
+            }
+            
+            .icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            .payment {
+                display: flex;
+                background-color: black;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: left;
+                align-items: flex-start;
+                margin-top: 45px;
+                margin-left: 50px;
+            }
+            
+            .social-midia {
+                display: flex;
+                flex-direction: row;
+                justify-content: right;
+                align-items: flex-end;
+                margin-top: 50px;
+                margin-left: 45px;
+            }
+            
+            .default {
+                display: flex;
+                background-color: black;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: small;
+                color: white;
+                text-align: center;
+                margin: 25px;
+            }
+            
+            .default-2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                /* margin: 25px; */
+                padding-bottom: 40px;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            .img-department {
+                width: 100%;
+                height: auto;
+            }
